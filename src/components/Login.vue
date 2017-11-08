@@ -1,5 +1,6 @@
 <template>
     <div class="login">
+      <img id="top-pic" src="https://i.imgur.com/0jkaotm.png">
         <h3>Sign In</h3>
         <input type="text" v-model="email" placeholder="email"><br>
         <input type="password" v-model="password" plaecholder="password"><br>
@@ -36,26 +37,30 @@
 
 
 <style scoped>
-    .login { 
-        margin-top: 40px;
-    }
-    input {
-        margin: 10px 0;
-        width: 20%;
-        padding: 15px;
-    }
-    button { 
-        margin-top: 20px;
-        width: 15%;
-        cursor: pointer;
-    }
-    p {
-        margin-top: 40px;
-        font-size: 13px;
-    }
-    p a { 
-        text-decoration: underline; 
-        cursor: pointer;
-    }
+  .login { 
+    margin-top: 40px;
+  }
+  input {
+    margin: 10px 0;
+    width: 20%;
+    padding: 15px;
+  }
+  button { 
+    margin-top: 20px;
+    width: 15%;
+    cursor: pointer;
+  }
+  p {
+    margin-top: 40px;
+    font-size: 13px;
+  }
+  p a { 
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+  #top-pic { 
+    max-width: 100%;
+    padding-top: 0;
+}
     
 </style>
