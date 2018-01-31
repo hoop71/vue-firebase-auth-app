@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 
 let app;
 let config = {
-  apiKey: "AIzaSyD_hfZivgCN6r7RfOMWaoaH4e4JDkP4jBM",
+  apiKey: "***",
   authDomain: "vuetest888.firebaseapp.com",
   databaseURL: "https://vuetest888.firebaseio.com",
   projectId: "vuetest888",
